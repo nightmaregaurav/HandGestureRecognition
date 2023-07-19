@@ -1,0 +1,6 @@
+MODEL_PATH: str = "trained_models/hand_landmark_model.task"
+MAX_NUM_OF_HANDS: int = 2
+MIN_HAND_DETECTION_CONFIDENCE: float = 0.5
+MIN_HAND_PRESENCE_CONFIDENCE: float = 0.5
+MIN_HAND_LANDMARK_TRACKING_CONFIDENCE: float = 0.5
+
